@@ -1,0 +1,214 @@
+html {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+#banner {
+  background: #152b83;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.banner-text {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e3c059;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  color: #152b83;
+}
+
+main {
+  padding-left: 20%;
+  display: flex;
+  background: url('../images/background.png') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#main-body {
+  flex: 1;
+  max-width: 600px;
+}
+
+#main-text {
+  background: white;
+  padding: 10px;
+}
+
+#main-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+#main-buttons button {
+  margin-bottom: 20px;
+  text-align: left;
+  color: white;
+  padding: 10px;
+}
+
+.offered-button-text {
+  margin-top: 10px;
+}
+
+.school-button {
+  text-align: left;
+  color: white;
+  padding: 10px;
+  margin: 10px 20px 10px 0;
+}
+
+.main-list {
+  margin-top: 10px;
+}
+
+.button-blue {
+  background: #00a6da;
+}
+
+.button-yellow {
+  background: #dbb33b;
+}
+
+main form {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background: #dadada;
+  padding: 10px;
+  height: 600px;
+}
+
+main form button {
+  margin: 10px;
+  background: #e3c059;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.form-field {
+  margin: 5px 0 5px 0;
+  padding: 3px;
+}
+
+.form-top {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.form-bottom {
+  font-size: 13px;
+}
+
+.form-check label {
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+
+.form-check input {
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  overflow: hidden;
+}
+
+footer {
+  background: #152b83;
+  padding: 20px;
+  margin-bottom: -16px;
+  display: flex;
+  color: white;
+  flex-wrap: wrap;
+}
+
+footer li {
+  list-style: none;
+}
+
+#footer-info {
+  width: 40%;
+  min-width: 300px;
+  flex: 1;
+}
+
+.footer-list-title {
+  color: white;
+  text-transform: uppercase;
+}
+
+.logo-image {
+  margin: 10px;
+}
+
+.non-disc-notice {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 20px 0 20px 0;
+}
+
+a:link,
+a:visited,
+a:hover {
+  color: #dbb33b;
+  text-decoration: none;
+}
+
+.show {
+  background: #fcf9f0;
+}
+
+#youtube {
+  width: 80%;
+}
